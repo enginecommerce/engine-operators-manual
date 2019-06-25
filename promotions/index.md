@@ -1,7 +1,10 @@
 ---
 layout: steps
 title: Promotions
-has_children: false
+has_children: true
+has_toc: true
+toc: true
+toc_header: On this page
 permalink: /promotions/
 image: false
 title: "Promotions"
@@ -33,6 +36,17 @@ context:
         image: /assets/images/mockdown/draft2/promotions/promotions_full_homepage_promotions_list.jpg
       - image_header: Use the this form to filter results
         image: /assets/images/mockdown/draft2/promotions/promotions_homepage_filter_dark.jpg
+
+  - title: Create a New Promotion
+    steps:
+
+    - instruction: In the Promotion Homepage, follow the New Promotion link in the Navigation Bar at the top of the page
+      image: '/assets/images/mockdown/draft2/promotions/new_promotions_dark.jpg'
+
+    - instruction: Follow the link below for more details on adding promotions to your site
+      permalink: /promotions/add/
+      permalink_name: Adding a new promotion
+
 ---
 
 # Promotions

@@ -7,12 +7,12 @@ overview_permalink: 'content/products/add/overview/add_products.html'
 permalink: products/add/
 image: false
 context:
-  - title: Adding products
+  - title: Adding Products
     permalink: products/add
     description: Creating new products on your site
     steps:
 
-    - instruction: In the Product Homepage, follow the New Product Link in the Navigation Bar at the top
+    - instruction: In the Product Homepage, follow the New Product Link in the Navigation Bar at the top of the page
       image: '/assets/images/mockdown/draft2/products_home_mockdown_with_new_product_button.jpg'
 
     - instruction: Fill in the basic information for the new product you want to create

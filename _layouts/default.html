@@ -84,27 +84,33 @@
               <p class="page-header-subhead">{{ page.subhead }}</p>
             </header>
 
-            {% if page.context %}
-              {% for item in page.context %}
-                <div class="content-wrapper">
-                  <div class="header">
-                    <h2 id='{{ item.name }}'>
-                      <a href='/{{ item.permalink }}'>{{ item.name }}</a>
-                    </h2>
-                  </div>
-                  <div class="topic-description">
-                    <p>
-                      {{ item.description }}
-                    </p>
-                    <div class="note">
-                      {% include {{ item.description_permalink }} %}
+            <div class="content-description">
+              {% if page.overview_permalink %}
+                {% include {{ page.overview_permalink }} %}
+                {% endif %}
+            </div>
+
+            <div class="card-group">
+              {% if page.context %}
+                {% for item in page.context %}
+                  <div class="card-wrapper">
+                    <div class="card">
+                      <div class="card-header">
+                        <h2 id='{{ item.name }}'>
+                          <a href='/{{ item.permalink }}'>{{ item.name }}</a>
+                        </h2>
+                      </div>
+                      <div class="card-description">
+                        {% include {{ item.description_permalink }} %}
+                      </div>
                     </div>
                   </div>
-              {% endfor %}
+                {% endfor %}
 
-            {% else %}
-              {{ content }}
-            {% endif %}
+              {% else %}
+                {{ content }}
+              {% endif %}
+            </div>
 
             {% if page.has_children == true and page.has_toc != false %}
               <div class="table-of-contents-layout">

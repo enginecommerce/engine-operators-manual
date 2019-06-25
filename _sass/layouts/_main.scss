@@ -146,3 +146,45 @@ h2.step-label{
 .note-header{
   padding-bottom: 15px;
 }
+
+.content-description{
+
+}
+
+.card-group{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-wrapper{
+  max-width: 33.33%;
+  text-align: center;
+  border-bottom: 1px solid #e4e4e4;
+  border-left: 1px solid #e4e4e4;
+}
+
+.card{
+  padding: 10px;
+}
+
+.card-description{
+
+}
+
+.card-header{
+
+}
+
+.card-wrapper:nth-child(3n+1) {
+  border-left: 0 none;
+  border-right: 1px solid #e4e4e4;
+}
+
+.card-wrapper:nth-child(3n-1){
+  border-left: 0 none;
+}
+
+.card-wrapper:last-child{
+  border-bottom: 0 none;
+}

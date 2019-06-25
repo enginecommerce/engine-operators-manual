@@ -32,10 +32,10 @@ context:
   - title: Create a New Product
     steps:
 
-    - instruction: In the Product Creations Homepage, follow the New Product link in the Navigation Bar at the top
+    - instruction: In the Product Homepage, follow the New Product link in the Navigation Bar at the top of the page
       image: '/assets/images/mockdown/draft2/products_home_mockdown_with_new_product_button.jpg'
 
-    - instruction: Follow the link below for more details on adding a product to your site
+    - instruction: Follow the link below for more details on adding products to your site
       permalink: /products/add/
       permalink_name: Adding a new product
 
