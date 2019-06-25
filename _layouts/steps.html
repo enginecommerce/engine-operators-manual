@@ -84,6 +84,13 @@
               <p class="page-header-subhead">{{ page.subhead }}</p>
             </header>
 
+            {% if page.overview_permalink %}
+            <div class="note">
+              {% include {{ page.overview_permalink }}%}
+            </div>
+            <hr>
+            {% endif %}
+
             {% if page.toc %}
                 <div class="toc-header">
                   <p>{{ page.toc_header }}</p>
@@ -93,13 +100,6 @@
                     <a href="#{{ item.title }}">{{ item.title }}</a>
                   </li>
                 {% endfor %}
-              <hr>
-            {% endif %}
-
-            {% if page.overview_permalink %}
-              <div class="note">
-                {% include {{ page.overview_permalink }}%}
-              </div>
               <hr>
             {% endif %}
 
