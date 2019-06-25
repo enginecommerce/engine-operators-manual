@@ -23,7 +23,7 @@ context:
     description_permalink: 'content/home/promotions.html'
   - name: Orders
     permalink: orders
-    description: View all the recorded Orders, incomplete and complete, and their status in live time.
+    description: View all the recorded orders, incomplete and complete, and their status in live time.
     description_permalink: 'content/home/orders.html'
 ---
 
