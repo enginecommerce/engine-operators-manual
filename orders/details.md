@@ -6,6 +6,23 @@ has_children: false
 permalink: orders/details/
 tabs:
   - name: Shipments
+    toc: true
+    toc_header: On this tab
+    context:
+      - title: The Shipments Tab contains the sections below
+        steps:
+        - instruction: Overview information about the Order will appear on this section to the right of the screen including the orders' status and customer information
+          image: /assets/images/mockdown/draft2/orders/details/details_shipments_information_dark_cropped.jpg
+        - instruction: To add a product without using the Cart tab, Use this Add Product module in the Shipments tab
+          image: /assets/images/mockdown/draft2/orders/details/details_shipments_add_product_dark_cropped.jpg
+        - instruction: Review the Shipment information of the Package
+          image: /assets/images/mockdown/draft2/orders/details/details_shipments_package_dark_cropped.jpg
+        - instruction: Review the items in the cart of the Order and Edit the shipping method and tracking information
+          image: /assets/images/mockdown/draft2/orders/details/details_shipments_cart_dark_cropped.jpg
+        - instruction: Any Gift Card details will be shown in this section
+          image: /assets/images/mockdown/draft2/orders/details/details_shipments_gift_card_dark_cropped.jpg
+        - instruction: Review the recipient information
+          image: /assets/images/mockdown/draft2/orders/details/details_shipments_recipient_dark_cropped.jpg
   - name: Cart
     toc: true
     toc_header: On this tab
