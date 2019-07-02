@@ -13,8 +13,17 @@ function openTab(evt, tabName){
 };
 
 $(document).ready(function(){
-  document.getElementById('product details').style.display="block";
-
+  try {
+    document.getElementById('shipments').style.display="block";
+  } catch (err) {
+    console.log(err);
+  }
+  try {
+    document.getElementById('product details').style.display="block";
+  } catch (err) {
+    console.log(err);
+  }
+  
 });
 
 /*document.addEventListener('DOMContentLoaded', _event => {
