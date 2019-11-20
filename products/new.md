@@ -1,25 +1,25 @@
 ---
 layout: steps
-title: Adding a New Product
+title: New Product Creation
 parent: Products
 has_children: false
 overview_permalink: 'content/products/add/overview/add_products.html'
-permalink: products/add/
+permalink: products/new
 image: false
 context:
-  - title: Adding products
-    permalink: products/add
-    description: Creating new products on your site
+  - title: Title Section
+    permalink: products/new
+    description: New Product Creation - Title Section
     steps:
 
-    - instruction: In the Product Homepage, follow the New Product Link in the Navigation Bar at the top
-      image: '/assets/images/mockdown/draft2/products_home_mockdown_with_new_product_button.jpg'
+    - instruction: __Title__ your product
+      image: ''
 
-    - instruction: Fill in the basic information for the new product you want to create
-      image: '/assets/images/mockdown/draft2/new_product_mockdown_with_screenshot_dark.jpg'
+    - instruction: Give a Description to your product
+      image: ''
 
-    - instruction: Select the Create button located at the botton of the page
-      image: /assets/images/mockdown/draft2/new_product_mockdown_with_screenshot_dark_with_create_button.jpg
+    - instruction: Edit your product's Slug. A slug is the part of your URL that is unique to the product you're making. For example, 'https://www.example.com/products/slug-name'. A slug is automatically generated from your Product's Title.
+      image:
 
     - instruction: The next page will show a Success banner at the bottom of the page verifying that you have successfully created a new product
       image: '/assets/images/mockdown/draft2/new_product_successful_mockdown_with_message_screenshot_dark.jpg'
